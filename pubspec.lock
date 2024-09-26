@@ -329,10 +329,11 @@ packages:
   pointycastle:
     dependency: "direct main"
     description:
-      name: pointycastle
-      sha256: "4be0097fcf3fd3e8449e53730c631200ebc7b88016acecab2b0da2f0149222fe"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: d6d74750b9b92b83a6b52e0ef21e70ce52b7b4ef
+      url: "https://github.com/TMSantos/pc-dart"
+    source: git
     version: "3.9.1"
   pool:
     dependency: transitive
